@@ -38,3 +38,5 @@ public class TextOper {
         } else {
             System.out.println("s4 doesn't contain F");
         }
+    }
+}
