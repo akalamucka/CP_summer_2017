@@ -1,4 +1,5 @@
 /**
+<<<<<<< HEAD
  * Created by ak63575 on 3/15/2017.
  */
 public class Conditions {
@@ -7,6 +8,16 @@ public class Conditions {
         b1 = true || false;
         //at least one must be true ||
         //&& both have to be true
+=======
+ * Created by prubac on 3/15/2017.
+ */
+public class Conditions {
+
+    public static void main(String[] args) {
+
+        boolean b1;
+        b1 = true && false;
+>>>>>>> upstream/master
 
         b1 = "abc".contains("c") && 5 > 7;
         if (b1) {
@@ -16,7 +27,11 @@ public class Conditions {
         int a = 3;
         {
             int b = 5;
+<<<<<<< HEAD
             System.out.println("2nd line" + a + "" + b);
+=======
+            System.out.println("2nd line " + a + " " + b);
+>>>>>>> upstream/master
             {
                 System.out.println("b=" + b);
             }
@@ -24,15 +39,37 @@ public class Conditions {
         //System.out.println("b=" +b);
 
         double n = 7;
+<<<<<<< HEAD
         if (n >= 5 && n <= 8)
             System.out.println("n is within limit");
+=======
+
+        if (n >= 5 && n <= 8)
+            System.out.println("n is within limit");
+
+>>>>>>> upstream/master
         if (!(n >= 5 && n <= 8))
             System.out.println("n is not within limit");
 
         if (n < 5 || n > 8) {
             System.out.println("n is not within limit");
         }
+<<<<<<< HEAD
         String s = "B";
+=======
+
+/*
+        if (n >= 5 && n <=8) {
+
+        } else {
+            System.out.println("n is not within limit");
+        }
+*/
+
+
+        String s = "B";
+
+>>>>>>> upstream/master
         if (s.equals("A")) {
             System.out.println("A");
         } else if (s.equals("B")) {
@@ -45,16 +82,25 @@ public class Conditions {
 
         switch (s) {
             case "A":
+<<<<<<< HEAD
                 System.out.println(("AA"));
                 break;
             case "B":
                 System.out.println("BB");
                 break;
+=======
+                System.out.println("AA");
+                break;
+            case "B":
+                System.out.println("BB");
+                //break;
+>>>>>>> upstream/master
             case "C":
                 System.out.println("CC");
                 break;
             default:
                 System.out.println("neither A B C");
+<<<<<<< HEAD
 
         }
         int res = s.equals("B") ? 10 : 0;
@@ -62,3 +108,15 @@ public class Conditions {
     }
 }
 
+=======
+        }
+
+
+        int res = s.equals("B") ? 10 : 0;
+
+        System.out.println("res=" + res);
+
+
+    }
+}
+>>>>>>> upstream/master
