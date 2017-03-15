@@ -23,7 +23,7 @@ public class Conditions {
         }
         //System.out.println("b=" +b);
 
-        double n = 7
+        double n = 7;
         if (n >= 5 && n <= 8)
             System.out.println("n is within limit");
         if (!(n >= 5 && n <= 8))
@@ -60,4 +60,5 @@ public class Conditions {
         int res = s.equals("B") ? 10 : 0;
         System.out.println("res=" + res);
     }
+}
 
