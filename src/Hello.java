@@ -3,28 +3,23 @@
  * Created by ak63575 on 3/8/2017.
  */
 public class Hello {
-=======
- * Created by prubac on 3/8/2017.
- */
-public class Hello {
 
->>>>>>> upstream/master
     public static void main(String[] args) {
         System.out.println("Hello World");
 
         int a;
-<<<<<<< HEAD
+
         a = 5;
         int b = ++a;
 // moze byc a++ i to bedzie co innego znaczylo
         // b = b + 5
-=======
+
         a = 6;
         a++;
         // a--
         // --a
 
-        int b = a;
+        b = a;
 
         b = b + 5;
         //b = 5 + 7;
@@ -32,15 +27,12 @@ public class Hello {
         a = a / 4;
 
         // The remaining part from integer division
->>>>>>> upstream/master
+
         int c = 11 % 4;
 
         System.out.println("a=" + a);
         System.out.println("b=" + b);
-<<<<<<< HEAD
-=======
 
->>>>>>> upstream/master
         System.out.println("c=" + c);
 
         double d1 = 45.5;
@@ -57,12 +49,5 @@ public class Hello {
         Integer i1 = f1.intValue();
 
         System.out.println(i1);
-<<<<<<< HEAD
     }
 }
-
-=======
-
-    }
-}
->>>>>>> upstream/master
